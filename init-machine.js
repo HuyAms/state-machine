@@ -13,7 +13,7 @@ const lightBulbMachine = Machine({
         unlit: {
             on: {
                 BREAK: 'broken',
-                TOGGLE: 'unlit'
+                TOGGLE: 'lit'
             }
         },
         broken: {type: 'final'}
